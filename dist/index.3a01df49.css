@@ -38,9 +38,9 @@ body, html {
   margin-bottom: 10px;
 }
 
-@media (max-width: 772px) {
+@media screen and (max-width: 772px) {
   .custom-card {
-    max-width: 90%;
+    max-width: 90% !important;
   }
 
   .card > img {
