@@ -4,7 +4,7 @@
   "description": "Carrd homepage for asxyzp.github.io",
   "main": "script.js",
   "scripts": {
-    "start": "parcel ./src/index.html"
+    "start": "parcel ./index.html"
   },
   "repository": {
     "type": "git",
