@@ -6,12 +6,14 @@ body, html {
 .custom-card {
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  width: 450px;
   background: #ffffffb3;
   border-radius: 15px;
 }
 
 .avatar {
-  width: 25%;
+  width: 110px;
   margin-top: -2.5em;
 }
 
@@ -26,25 +28,38 @@ body, html {
 }
 
 .btn-orange {
+  color: #d8702c;
   width: 75%;
   background: #d8702c;
+  border-color: #d8702c;
+  outline-color: #d8702c;
   margin-bottom: 10px;
 }
 
 .btn-orange-outlined {
   color: #d8702c;
   width: 75%;
+  background-color: #0000;
   border: 1px solid #d8702c;
   margin-bottom: 10px;
 }
 
+.btn-orange-outlined:hover {
+  color: #d8702c;
+}
+
+.btn:focus, .btn:active {
+  box-shadow: none;
+  outline: none !important;
+}
+
 @media screen and (max-width: 772px) {
-  .custom-card {
-    max-width: 90% !important;
+  .btn-orange, .btn-orange-outlined {
+    width: 95%;
   }
 
-  .card > img {
-    width: 20%;
+  .custom-card {
+    max-width: 90% !important;
   }
 }
 
