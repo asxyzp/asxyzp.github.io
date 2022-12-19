@@ -1,0 +1,41 @@
+body,html{
+	background: linear-gradient(315deg, #D8702C 0%, #D8702C 30%, #ffbe4b 100%);
+	height: 100%;
+}
+.custom-card {
+	backdrop-filter: blur(10px);
+	background: rgba(255, 255, 255, 0.7);
+	border-radius: 15px;
+}
+.avatar{
+	margin-top: -2.5em;
+	width: 25%;
+}
+
+/* STYLING TEXT */
+.card-txt{
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.card-sm-text{
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+
+/* STYLING BUTTONS */
+.btn-orange{
+	background: rgb(216 112 44);
+	margin-bottom: 10px;
+	width: 75%;
+}
+.btn-orange-outlined{
+	border: 1px solid rgb(216 112 44);
+	color: rgb(216 112 44);
+	margin-bottom: 10px;
+	width: 75%;
+}
+@media(max-width: 772px){
+	.card>img{ 
+		width: 20%;
+	}
+}

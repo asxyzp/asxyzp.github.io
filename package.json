@@ -1,0 +1,23 @@
+{
+  "name": "asxyzp.github.io",
+  "version": "0.0.0",
+  "description": "Carrd homepage for asxyzp.github.io",
+  "main": "script.js",
+  "scripts": {
+    "start": "parcel ./src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asxyzp/asxyzp.github.io.git"
+  },
+  "keywords": [],
+  "author": "asxyzp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asxyzp/asxyzp.github.io/issues"
+  },
+  "homepage": "https://github.com/asxyzp/asxyzp.github.io#readme",
+  "devDependencies": {
+    "parcel": "^2.8.2"
+  }
+}

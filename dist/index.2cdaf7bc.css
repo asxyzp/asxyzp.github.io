@@ -1,0 +1,47 @@
+body, html {
+  height: 100%;
+  background: linear-gradient(315deg, #d8702c 0% 30%, #ffbe4b 100%);
+}
+
+.custom-card {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background: #ffffffb3;
+  border-radius: 15px;
+}
+
+.avatar {
+  width: 25%;
+  margin-top: -2.5em;
+}
+
+.card-txt {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.card-sm-text {
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+.btn-orange {
+  width: 75%;
+  background: #d8702c;
+  margin-bottom: 10px;
+}
+
+.btn-orange-outlined {
+  color: #d8702c;
+  width: 75%;
+  border: 1px solid #d8702c;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 772px) {
+  .card > img {
+    width: 20%;
+  }
+}
+
+/*# sourceMappingURL=index.2cdaf7bc.css.map */
