@@ -35,6 +35,9 @@ body,html{
 	width: 75%;
 }
 @media(max-width: 772px){
+	.custom-card{
+		max-width: 90%;
+	}
 	.card>img{ 
 		width: 20%;
 	}
