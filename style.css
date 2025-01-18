@@ -1,5 +1,5 @@
 body,html{
-	background: linear-gradient(315deg, #D8702C 0%, #D8702C 30%, #ffbe4b 100%);
+	background: linear-gradient(135deg, #E575C0 0%, #E575C0 30%, #ffc7ff 100%) fixed;
 	height: 100%;
 }
 .custom-card {
